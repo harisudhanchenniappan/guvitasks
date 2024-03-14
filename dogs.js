@@ -8,7 +8,7 @@ function fetchDog(){
         console.log(imageUrl.length)
         imageUrl.forEach(url=>{
             const image=document.createElement('img')
-            //console.log(url)
+            console.log(url)
             image.setAttribute('src',url)
             image.classList.add('image')
             bod.append(image)
